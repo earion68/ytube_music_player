@@ -3,7 +3,8 @@
   "name": "YouTube Music Player",
   "codeowners": [
     "@KoljaWindeler",
-    "@mang1985"
+    "@mang1985",
+    "@earion68"
   ],
   "config_flow": true,
   "dependencies": [
@@ -13,9 +14,9 @@
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/KoljaWindeler/ytube_music_player/issues",
   "requirements": [
-    "ytmusicapi==1.9.1",
-    "pytubefix==v8.8.5",
+    "ytmusicapi==1.10.1",
+    "pytubefix==v8.12.1",
     "integrationhelper==0.2.2"
   ],
-  "version": "20241229.01"
+  "version": "fork-20250205"
 }
